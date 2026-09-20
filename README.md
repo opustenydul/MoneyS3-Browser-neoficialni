@@ -12,6 +12,9 @@ Není produktem společnosti Seyfor a není se společností Seyfor nijak spojen
 
 Projekt **neobsahuje ani nedistribuuje `MON2KDBE.DLL`**. Používá COM komponentu, kterou již má uživatel nainstalovanou ve své vlastní instalaci Money S3.
 
+## Důvod
+Proč toto vlastně vzniklo: Měl jsem roky bezplatnou START verzi pr pár dokladů ročně, po změně na 3 měsíce, jsem se bez varování nedostal ke svým historickým dokladům, tak jsem za odpoledne napsal vlastní prohlížeč. A mimochodem má asi 100x rychlejší reakce na klik než ta nativní obludnost.
+
 ## Bezpečnost
 
 Program nevolá zapisovací operace `Append`, `Update` ani `Delete`. Přesto vždy pracujte s kopií dat.
